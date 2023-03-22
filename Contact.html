@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>loftmakerlondon</title>
+        <link rel="stylesheet" type="text/css" href="/LoftmakerLondon-main/LoftmakerLondon-main/style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        
+
+        
+    </header>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+<body>
+
+<h1><a class="header2" href="/LoftmakerLondon-main/index.html"><img src="/LoftmakerLondon-main/html/img/3.png" alt="" width="100px"></a></h1>
+
+<form action="contact.php" method="post">
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="department-selection">Choose Concerned Department</label>
+    <select id="department-selection" name="concerned_department" required>
+        <option value="">Select a Department</option>
+        <option value="billing">Billing</option>
+        <option value="marketing">Marketing</option>
+        <option value="technical support">Technical Support</option>
+    </select>
+  </div>
+  <div class="elem-group">
+    <label for="title">Reason For Contacting Us</label>
+    <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" pattern=[A-Za-z0-9\s]{8,60}>
+  </div>
+  <div class="elem-group">
+    <label for="message">Write your message</label>
+    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
+
+
+<ul class="menu">
+  <li><a class="menuItem" href="/LoftmakerLondon-main/index.html">Home</a></li>
+    <li><a class="menuItem" href="/LoftmakerLondon-main/Extensions.html">Extensions</a></li>
+    <li><a class="menuItem" href="/LoftmakerLondon-main/Lofts.html">Lofts </a></li>
+    <li><a class="menuItem" href="/LoftmakerLondon-mainContact.html">Contact</a></li>
+  </ul>
+  <button class="hamburger">
+    <!-- material icons https://material.io/resources/icons/ -->
+    <i class="menuIcon material-symbols-sharp" style="font-size: 35px; color: darkorange;">menu</i>
+    <i class="material-symbols-sharp closeIcon " style="display: none; font-size: 35px;">close</i>
+  </button>
+<script src="/LoftmakerLondon-main/button.js"></script>
+
+</body>
+</html>
